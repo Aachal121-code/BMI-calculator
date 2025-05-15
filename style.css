@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   background-color: rgb(228, 228, 244);
+}
+.container{
+    width: 520px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+.logo{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: rgb(49, 49, 108);
+}
+#username{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.input{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#input1{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+#input2{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.input label{
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin-left: -170px;
+}
+.butt-res{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    width: 140px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 50px;
+}
+.result{
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#clear{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+i{
+    font-size: 2rem ;
+}
+.info{
+    width: 100%;
+    text-align: center;
+}
+.info p{
+    font-size: 1.7rem;
+    padding-bottom: 40px;
+}
+.guidlines{
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.guidlines input{
+    transform: scale(2);
+    margin-right: 20px;
+}
+@media screen and (max-width:600px){
+    .guidlines input{
+        margin-right: 10px;
+    }
+}
+.guidlines label{
+    font-size: 1.6rem;
+    line-height: 40px;
+} 

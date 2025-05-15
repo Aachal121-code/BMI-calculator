@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <p>BMI Calculator</p>
+        </div>
+        
+        <div class="input">
+            <label>Name : </label>
+            <input type="text" id="username" >
+            <label>Height :</label>
+            <input type="text" id="input1" placeholder="in CM">
+            <label>Weight :</label>
+            <input type="text" id="input2" placeholder="in KG">
+        </div>
+        <div class="butt-res">
+            <button id="show" onclick="calculate()">BMI</button>
+            <div class="result">
+                
+            </div>
+            <button id="clear" onclick="clearall()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="info">
+            <p>Check BMI Guidlines</p>
+        </div>
+        <div class="guidlines">
+            <div class="radio">
+                <input type="radio" name="personcatagory" id="radio1"><label> Severely Underweight : Less than 16 kg/m2</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="personcatagory" id="radio2"><label> Underweight : 16.0 to 18.4 kg/m2</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="personcatagory" id="radio3"><label> Normal Weight : 18.5 to 24.9 kg/m2</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="personcatagory" id="radio4"><label> Overweight : 25.0 to 29.9 kg/m2</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="personcatagory" id="radio5"><label> Obesity : 30.0 and Above</label>
+            </div>
+        </div>   
+    </div>
+    
+    <script src="BMIcalculation.js"></script>
+</body>
+    
+</html>
