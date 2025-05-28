@@ -21,9 +21,9 @@ A simple and user-friendly BMI Calculator that helps users determine their Body 
 &nbsp;
 &nbsp;
 
-- **Frontend**: HTML, CSS, JavaScript (or React, Vue, etc.)
-- **Backend**: Not applicable (if it's a purely frontend application)
-- **Frameworks**: Bootstrap (or any other CSS framework for styling)
+- **Frontend**: HTML, CSS, JavaScript 
+- **Backend**: Not applicable 
+- **Frameworks**:  Not applicable
 &nbsp;
 &nbsp;
 
